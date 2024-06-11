@@ -22,9 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.container {
-    height: 100vh;
-}
+
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -39,7 +37,9 @@ body {
 }
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
+    display: block;
+    text-decoration: none;
 }
 .container__aviso {
     font-size: 12px;
